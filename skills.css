@@ -1,0 +1,154 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+li {
+  list-style:none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(26d0c9);
+  /* Change the position property to fixed, and top property to 0 */
+  position:fixed;
+  top:0;
+  
+  /* Change the z-index property to 10 */
+  z-index:10;
+}
+
+.header {
+  background-color:#1E90FF;/*#00BFFF;*/
+  color: #fff;
+  height: 85px;
+  width: 1470px;
+  padding: 0 15px;
+  border-radius: 8px;
+ 
+  
+}
+
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+ /* padding: 20px 40px;*/
+  color:black;
+ /* text-decoration:none;*/
+}
+
+
+.header-list a{
+	text-decoration:none;
+  float:right;
+  padding: 30px 26px;
+  font-size:22px;
+  font weight:bold;
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+ /* transition: all 0.5s;*/
+  
+}
+.header-links{
+		margin: 0 5px 0 5px;
+		background-color: rgba(255, 255, 255, 0.3);
+	}
+
+
+.main {
+  padding: 100px 80px;
+  /*height: 600px;
+  padding-bottom: 80px;*/
+/* background-color: #f7f7f7;*/
+background-image: url("lauren.jpg");
+background-size: cover;
+border-radius: 8px;
+}
+.skills h1{
+	/*border-bottom: 2px solid #dee7ec;*/
+	font-weight: bold;
+color:#FFFDD5;
+}
+
+.skills h3{
+	/*border-bottom: 2px solid #dee7ec;*/
+	font-weight: bold;
+color:#FFFDD5;
+}
+
+.lessons{
+	/*float:;*/
+	display: flex-wrap;
+	/*flex-wrap: flex;*/
+	flex-direction: column;
+	width:20%;
+	font-size:25px;
+	font-weight:bold;
+}
+/*.pp{
+	background-color: ;
+	font-size:20px !important;
+	display: flex;
+	flex-direction: row;
+}
+.lesson-item1 {
+	float:left;
+}
+.lesson-item2 {
+	float:center;
+}*/
+
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 220px;
+  padding: 50px;
+  border-radius: 8px;
+}
+
+.footer-logo {
+  float: left;
+ /* font-size: 32px;
+  margin-top:0;
+  color:#FFFACD;*/
+  
+}
+.footer-list{
+	font-size:20px;
+	color:#FFFACD;
+}
+.footer-left {
+	text-decoration:none;
+	color:#FFFACD;
+	font-size:20px;
+	float:left;
+	}
+.footer-left a{
+	text-decoration:none;
+	color:#00FFFF;
+	font-size:20px;
+	}
+.footer-right {
+	text-decoration:none;
+	float: right;
+	color:#FFFACD;
+	font-size:20px;
+	margin-right:180px;
+}
+.footer-right a{
+	text-decoration:none;
+	color:#00FFFF;
+	font-size:20px;
+	}
+.hold{
+	margin-right:20px;
+}
+
+
+
+
+
